@@ -1,0 +1,5 @@
+<input onclick="this.value='Friends'" type="button" value="Add Friend" id="myButton1" />
+
+<form action="https://sites.google.com/view/434site/messages?authuser=3">
+ <button type="submit" class="signupbtn">Send a Message</button>
+</form>
