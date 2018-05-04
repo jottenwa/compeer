@@ -1,16 +1,36 @@
-<div style="border:1px solid #ccc;font:10px/10px; overflow:auto;">
-<a href= "https://sites.google.com/view/434site/messages?authuser=3">
-<h6> Person 1 (11:30)
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+  <meta charset="UTF-8">
+  <script language="JavaScript">
+	var message = "";
+    function showInput() {
+       	message = message + "</br>" + document.getElementById("user_input").value;
+		document.getElementById('display').innerHTML = message;
+		document.getElementById("user_input").value = "";
+                    
+    }
+  </script>
+
+  </head>
+<body>
+	<label>Create a new Message: </label>
+	<br/>
+	<label for="uname"><b>Recipient</b></label>
+    <input type="text" placeholder="Enter Name" name="uname" required>
+
 </br>
-I wanted to send you this personal message, because I didnt want Person 2 to see this.</h6>
-</a>
-<h6> Person 2 (11:30)
-</br>
-I wanted to send you this personal message, because I didnt want Person 3 to see this.</h6>
-<h6> Person 3 (11:30)
-</br>
-I wanted to send you this personal message, because I didnt want Person 4 to see this.</h6>
-<h6> Person 4 (11:30)
-</br>
-I wanted to send you this personal message, because I didnt want Person 1 to see this.</h6>
-</div>
+  <form>
+    <label><b>Enter a Message</b></label>
+    <input type="text" name="message" id="user_input">
+	
+  </form>
+    <input onclick="this.value='Message Sent!'" type="button" value="Send Message" id="myButton1" />
+<br/>
+<br/>
+  <form action="https://sites.google.com/view/434site/logged-in?authuser=3">
+        <button type="submit" class="signupbtn">Home</button>
+	<form/>
+
+</body>
+</html>
