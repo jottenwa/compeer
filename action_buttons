@@ -1,0 +1,6 @@
+<form action="https://sites.google.com/view/434site/group?authuser=3">
+<button type="submit" class="signupbtn">New Group</button>
+</form>
+<form action="https://sites.google.com/view/434site/new-message?authuser=3">
+<button type="submit" class="newmessage">New Message</button>
+</form>
