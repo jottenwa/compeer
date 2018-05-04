@@ -1,0 +1,28 @@
+<div class="container">
+
+	<label for="name"><b>Name</b></label> <br/>
+    <input type="text" placeholder="Enter Name" name="name" required>
+	<br/>
+	<label for="description"><b>Description</b></label> <br/>
+    <input type="text" name="email" required>
+	<br/>
+	<br/>
+    <label for="tags"><b>Tags</b></label>
+    <select multiple>
+		<option value="carpool">Carpooling</option>
+		<option value="social">Socializing</option>
+		<option value="sports">Sports Teams</option>
+		<option value="professional">Professional Things</option>
+	</select>
+	<br/>
+	<br/>
+	<input onclick="this.value='Group Created'" type="button" value="Create Group" id="myButton1" />
+	<form action="https://sites.google.com/view/434site/groups-page?authuser=3">
+		<button type="submit" class="signupbtn">View Groups</button>
+	</form>
+	<br/>
+	<form action="https://sites.google.com/view/434site/logged-in?authuser=3">
+		<button type="submit" class="signupbtn">Home</button>
+	</form>
+	
+</div>
