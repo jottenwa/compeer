@@ -1,0 +1,4 @@
+Person 1 is in the following Groups:
+</br>
+<input type="checkbox" checked="checked" name="group1"> Group 1
+<input type="checkbox" checked="checked" name="group3"> Group 3
