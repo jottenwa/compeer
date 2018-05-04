@@ -1,0 +1,37 @@
+<form action="https://sites.google.com/view/434site/logged-in?authuser=3">
+  <div class="container" style=" font-size:150%;">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+	
+<br />
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" style=";" placeholder="Enter Password" name="psw" required>
+	
+<br />
+
+	<label>
+		<input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+	
+	<br />
+	<center>
+	<input type="submit" value="Login" />
+	<center />
+    
+  </div>
+
+  <div class="container" style=" text-align:center;">
+    <button type="button" class="cancelbtn">Cancel</button>
+	<br />
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+<form action="https://sites.google.com/view/434site/create?authuser=3">
+  <div class="container">
+	<center>
+	<input type="submit" value="Create New Account" />
+	<center />
+  </div>
+</form>
