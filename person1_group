@@ -1,0 +1,13 @@
+<form action="https://sites.google.com/view/434site/group?authuser=3">
+	<marquee behavior="scroll" direction="up" height = "300" scrollamount="3" >
+	<center>
+	<img src="http://images.clipartpanda.com/group-clipart-clip-art-group.png" width="80" height="80" alt="Natural"/>
+	<br/>
+	<label> <center> Group 1 </label>
+	<br/>
+	<br/>
+	<img src="http://images.clipartpanda.com/group-clipart-clip-art-group.png" width="80" height="80" alt="Natural"/>
+	<br/>
+	<label> <center> Group 3 </label>
+	</marquee>
+</form>
