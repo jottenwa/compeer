@@ -1,6 +1,8 @@
 # compeer
 CMSC 434 Project
 
+https://sites.google.com/view/434site/home?authuser=3
+
 Our project was created using Google Slides.  Our group was not experienced in creating a website and preferred to create the applicaiton in Android.  After considering that the application was originally designed for the desktop and after taking our Professor's insight into account, we created a series of html scripts for the final prototype.
 
 Login Page uses the following HTML scripts:
