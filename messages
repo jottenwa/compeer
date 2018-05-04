@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+  <meta charset="UTF-8">
+  <script language="JavaScript">
+	var message = "";
+    function showInput() {
+       	message = message + "</br>" + document.getElementById("user_input").value;
+		document.getElementById('display').innerHTML = message;
+		document.getElementById("user_input").value = "";
+                    
+    }
+  </script>
+
+  </head>
+<body>
+	<label>Messages: </label>
+	<div style="border:1px solid #ccc;font:16px/26px; height=300px; overflow:auto;">
+		
+		<h6 style= "color: blue;"> <a href="https://sites.google.com/view/434site/friend?authuser=3"> Person 1</a>: I wanted to send you this personal message, because I didnt want Person 2 to see this.</h6>
+		<h6 style="color:black;"> You: <span id='display'></span></h6>
+		
+	</div>
+</br>
+  <form>
+    <label><b>Enter a Message</b></label>
+    <input type="text" name="message" id="user_input">
+	
+  </form>
+  <input type="submit" onclick="showInput();"><br/>
+
+</body>
+</html>
