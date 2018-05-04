@@ -1,0 +1,20 @@
+<div style="border:1px solid black;height:150px; width:100px;overflow-y:hidden;overflow-y:scroll;">
+<p style="width:250%;">
+<form action="https://sites.google.com/view/434site/groups-page?authuser=3">
+	<img src="http://images.clipartpanda.com/group-clipart-clip-art-group.png" width="80" height="80" alt="Natural" />
+	<br/>
+		<button type="submit" class="newgroup">Group 1</button>
+	<br/>
+	<br/>
+	<img src="http://images.clipartpanda.com/group-clipart-clip-art-group.png" width="80" height="80" alt="Natural" />
+	<br/>
+		<button type="submit" class="newgroup1">Group 2</button>
+	<br/>
+	<br/>
+	<img src="http://images.clipartpanda.com/group-clipart-clip-art-group.png" width="80" height="80" alt="Natural" />
+	<br/>
+		<button type="submit" class="newgroup2">Group 3</button>
+
+</form>
+</p>
+</div>
